@@ -4,7 +4,8 @@
   "description": "Github battel project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "author": "Bunchhieng Soth <Bunchhieng@gmail.com> (http://www.hackbits.com)",
   "license": "MIT",
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
   }
 }
